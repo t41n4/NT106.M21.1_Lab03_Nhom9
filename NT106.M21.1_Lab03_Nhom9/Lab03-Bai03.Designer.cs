@@ -1,7 +1,7 @@
 ﻿
 namespace NT106.M21._1_Lab03_Nhom9
 {
-    partial class Form1
+    partial class FormBai3
     {
         /// <summary>
         /// Required designer variable.
@@ -29,13 +29,19 @@ namespace NT106.M21._1_Lab03_Nhom9
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FormBai3
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.Name = "FormBai3";
+            this.Text = "Bai3";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
     }
 }
-

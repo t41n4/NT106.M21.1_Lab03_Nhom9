@@ -1,0 +1,14 @@
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.exe.config
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.exe
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.pdb
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Control.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai1.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai2.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai3.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai4.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Properties.Resources.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.exe
+C:\Users\admin\Desktop\Lap trinh Mang can bang\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.pdb
