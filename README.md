@@ -1,2 +1,25 @@
-# NT106.M21.1_Lab03_Nhom9
- Yêu cầu (bắt buộc) tất cả các bài tập trong lab3 cần đặt trong 1 project duy nhất, mỗi bài tập là 1 form đặt tên theo dạng Lab03-Baix (x là số thứ tự bài tập) và tạo 1 form điều hướng để mở các bài tập. Sinh viên ghi tên và mssv các thành viên của nhóm ở form điều hướng. Bài thực hành làm theo nhóm tối đa 5 thành viên/nhóm. Nhóm có thể là nhóm lý thuyết hoặc tự tạo nhóm thực hành. Đăng ký nhóm trên teams.  Nộp: - Toàn bộ source code - Báo cáo tóm lược bao gồm ảnh chụp màn hình kèm mô tả các bước hoạt động của ứng dụng được viết ở từng bài, kèm tên các thành viên và phân công công việc của các thành viên trong nhóm. Sinh viên đọc kỹ phần D. Yêu cầu và đánh giá
+# NT106_BTLTB4_NHOM9
+### Bài1:  
+####  +Phân công:
+        Dương Đức Anh_20520131  
+####  +Mô tả:  
+      ...
+      
+### Bài2:  
+####  +Phân công:
+      Trần Hưng Hoàn_20520513
+####  +Mô tả:  
+      ...  
+    
+### Bài3:  
+####  +Phân công:
+      Lương Nguyễn Mai Ly_19520707   
+####  +Mô tả:  
+     ... 
+    
+### Bài4:  
+####  +Phân công:
+      Nguyễn Mỹ Báo_19521250
+      Nguyễn Anh Tài_20520924 
+####  +Mô tả:  
+     ...
