@@ -33,11 +33,12 @@ namespace NT106.M21._1_Lab03_Nhom9
             // 
             // FormBai3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormBai3";
-            this.Text = "Bai3";
+            this.Text = "Lab03-Bai3";
             this.ResumeLayout(false);
 
         }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 using System.Threading;
 namespace NT106.M21._1_Lab03_Nhom9
 {
-    public partial class Control : Form
+    public partial class Menu : Form
     {
-        public Control()
+        public Menu()
         {
             InitializeComponent();
         }

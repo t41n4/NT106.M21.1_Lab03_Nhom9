@@ -16,7 +16,7 @@ namespace NT106.M21._1_Lab03_Nhom9
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Control());
+            Application.Run(new Menu());
         }
     }
 }
