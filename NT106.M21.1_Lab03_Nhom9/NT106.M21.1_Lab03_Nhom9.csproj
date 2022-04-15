@@ -52,11 +52,11 @@
     <Compile Include="Lab03-Bai04.Designer.cs">
       <DependentUpon>Lab03-Bai04.cs</DependentUpon>
     </Compile>
-    <Compile Include="Lab03-Bai03.cs">
+    <Compile Include="Lab03_Bai03.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Lab03-Bai03.Designer.cs">
-      <DependentUpon>Lab03-Bai03.cs</DependentUpon>
+    <Compile Include="Lab03_Bai03.Designer.cs">
+      <DependentUpon>Lab03_Bai03.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab03-Bai02.cs">
       <SubType>Form</SubType>
@@ -64,11 +64,23 @@
     <Compile Include="Lab03-Bai02.Designer.cs">
       <DependentUpon>Lab03-Bai02.cs</DependentUpon>
     </Compile>
-    <Compile Include="Control.cs">
+    <Compile Include="Lab03_Bai3_TcpClient.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Control.Designer.cs">
-      <DependentUpon>Control.cs</DependentUpon>
+    <Compile Include="Lab03_Bai3_TcpClient.Designer.cs">
+      <DependentUpon>Lab03_Bai3_TcpClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab03_Bai3_TcpServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab03_Bai3_TcpServer.Designer.cs">
+      <DependentUpon>Lab03_Bai3_TcpServer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Lab03-Bai01.cs">
       <SubType>Form</SubType>
@@ -78,8 +90,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Control.resx">
-      <DependentUpon>Control.cs</DependentUpon>
+    <EmbeddedResource Include="Lab03_Bai3_TcpClient.resx">
+      <DependentUpon>Lab03_Bai3_TcpClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab03_Bai3_TcpServer.resx">
+      <DependentUpon>Lab03_Bai3_TcpServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab03-Bai01.resx">
       <DependentUpon>Lab03-Bai01.cs</DependentUpon>
@@ -87,8 +105,8 @@
     <EmbeddedResource Include="Lab03-Bai02.resx">
       <DependentUpon>Lab03-Bai02.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Lab03-Bai03.resx">
-      <DependentUpon>Lab03-Bai03.cs</DependentUpon>
+    <EmbeddedResource Include="Lab03_Bai03.resx">
+      <DependentUpon>Lab03_Bai03.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Lab03-Bai04.resx">
       <DependentUpon>Lab03-Bai04.cs</DependentUpon>

@@ -1,7 +1,6 @@
-﻿
-namespace NT106.M21._1_Lab03_Nhom9
+﻿namespace NT106.M21._1_Lab03_Nhom9
 {
-    partial class FormBai3
+    partial class Lab03_Bai3_TcpClient
     {
         /// <summary>
         /// Required designer variable.
@@ -31,14 +30,13 @@ namespace NT106.M21._1_Lab03_Nhom9
         {
             this.SuspendLayout();
             // 
-            // FormBai3
+            // Lab03_Bai3_TcpClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(600, 366);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "FormBai3";
-            this.Text = "Lab03-Bai3";
+            this.ClientSize = new System.Drawing.Size(641, 344);
+            this.Name = "Lab03_Bai3_TcpClient";
+            this.Text = "Lab03_Bai3_TcpClient";
             this.ResumeLayout(false);
 
         }
