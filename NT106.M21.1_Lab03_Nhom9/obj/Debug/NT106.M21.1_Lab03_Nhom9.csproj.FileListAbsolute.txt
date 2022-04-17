@@ -68,3 +68,5 @@ D:\CS\WindowForm\Lab3\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.
 D:\CS\WindowForm\Lab3\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.pdb
 D:\CS\WindowForm\Lab3\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03B1UDPServer.resources
 D:\CS\WindowForm\Lab3\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab3B1UDPClient.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03B1UDPServer.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab3B1UDPClient.resources

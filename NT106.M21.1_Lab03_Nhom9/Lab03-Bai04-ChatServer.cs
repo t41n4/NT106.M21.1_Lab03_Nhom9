@@ -27,7 +27,6 @@ namespace NT106.M21._1_Lab03_Nhom9
             Thread StartListenThread = new Thread(ListenThread);
             StartListenThread.Start();
             btnB4Listen.Text = "Listenning...";
-            
         }
 
         private void ListenThread()
@@ -62,11 +61,10 @@ namespace NT106.M21._1_Lab03_Nhom9
                     receiver.Start();
                 }
             }
-            catch (Exception )
+            catch (Exception)
             {
                 CloseMe();
             }
-            
         }
 
         private void ReceiveDataThread(Socket clientSocket)
@@ -110,6 +108,7 @@ namespace NT106.M21._1_Lab03_Nhom9
                 SendData(msg, item);
             }
         }
+
         private void CloseMe()
         {
             if (listenerSocket != null)
@@ -119,10 +118,15 @@ namespace NT106.M21._1_Lab03_Nhom9
                 bytesReceived = 0;
                 ListClient = null;
                 ipepServer = null;
-                listLog.Items.Clear();
-            }
+                if (listLog.SelectedItems.Count == 0 && listLog.Items.Count != 0)
+                {
+                    listLog.Items[0].Selected = true;
+                    listLog.Items.Clear();
+                }
 
-    }
+            }
+        }
+
         private void Lab03_Bai04_ChatServer_FormClosing(object sender, FormClosingEventArgs e)
         {
             CloseMe();
@@ -133,6 +137,7 @@ namespace NT106.M21._1_Lab03_Nhom9
             Thread ControlListenBtn = new Thread(ControlListenButton);
             ControlListenBtn.Start();
         }
+
         private void ControlListenButton()
         {
             while (true)
@@ -155,7 +160,6 @@ namespace NT106.M21._1_Lab03_Nhom9
 
         private void listLog_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
     }
 }

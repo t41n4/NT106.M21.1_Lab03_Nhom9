@@ -38,10 +38,12 @@ namespace NT106.M21._1_Lab03_Nhom9
                 if (ServerThrd.IsAlive)
                 {
                     btnB4ChatServer.Enabled = false;
+                    
                 }
                 else
                 {
                     btnB4ChatServer.Enabled = true;
+                    break;
                 }
             }
             
