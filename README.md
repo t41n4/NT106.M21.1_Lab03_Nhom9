@@ -22,4 +22,6 @@
       Nguyễn Mỹ Báo_19521250
       Nguyễn Anh Tài_20520924 
 ####  +Mô tả:  
-     ...
+     Phòng Chat: có một Server quản lí việc Kết nối của các Client(hiện thị các Client Đang kết nối tới)
+     Nếu Client gửi một  tin nhắn tới Server, Server sẽ broadcast tin nhắn này ra các client có trong danh sách đang kết nối tới server
+     Khi ngắt kết nối, Client sẽ gửi tin "Name: quit" tới server để đóng kết nối của Client
