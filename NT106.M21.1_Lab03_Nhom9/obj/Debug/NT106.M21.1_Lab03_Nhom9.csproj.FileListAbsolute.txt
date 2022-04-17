@@ -70,3 +70,21 @@ D:\CS\WindowForm\Lab3\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9
 D:\CS\WindowForm\Lab3\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab3B1UDPClient.resources
 C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03B1UDPServer.resources
 C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab3B1UDPClient.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.AssemblyReference.cache
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.SuggestedBindingRedirects.cache
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03B1UDPServer.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab3B1UDPClient.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai04_ChatClient.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai04_ChatServer.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai3_TcpClient.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai3_TcpServer.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Menu.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai1.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai2.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai3.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai4.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Properties.Resources.resources
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.GenerateResource.cache
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.CoreCompileInputs.cache
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.exe
+D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.pdb
