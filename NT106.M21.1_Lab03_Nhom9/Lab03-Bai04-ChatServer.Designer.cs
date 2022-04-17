@@ -40,7 +40,7 @@ namespace NT106.M21._1_Lab03_Nhom9
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(12, 43);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(32, 17);
+            this.label1.Size = new System.Drawing.Size(30, 16);
             this.label1.TabIndex = 1;
             this.label1.Text = "Log";
             // 
@@ -63,6 +63,7 @@ namespace NT106.M21._1_Lab03_Nhom9
             this.listLog.TabIndex = 3;
             this.listLog.UseCompatibleStateImageBehavior = false;
             this.listLog.View = System.Windows.Forms.View.List;
+            this.listLog.SelectedIndexChanged += new System.EventHandler(this.listLog_SelectedIndexChanged);
             // 
             // btnStop
             // 

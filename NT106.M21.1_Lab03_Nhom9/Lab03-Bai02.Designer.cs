@@ -52,6 +52,7 @@ namespace NT106.M21._1_Lab03_Nhom9
             this.lv_.Size = new System.Drawing.Size(509, 258);
             this.lv_.TabIndex = 1;
             this.lv_.UseCompatibleStateImageBehavior = false;
+            this.lv_.SelectedIndexChanged += new System.EventHandler(this.lv__SelectedIndexChanged);
             // 
             // FormBai2
             // 

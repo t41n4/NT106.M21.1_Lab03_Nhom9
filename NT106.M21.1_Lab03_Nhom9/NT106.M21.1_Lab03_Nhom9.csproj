@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lab03-Bai01-UPDClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab03-Bai01-UPDClient.Designer.cs">
+      <DependentUpon>Lab03-Bai01-UPDClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab03-Bai01-UDPServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab03-Bai01-UDPServer.Designer.cs">
+      <DependentUpon>Lab03-Bai01-UDPServer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab03-Bai04-ChatClient.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -102,6 +114,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Lab03-Bai01-UDPServer.resx">
+      <DependentUpon>Lab03-Bai01-UDPServer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab03-Bai01-UPDClient.resx">
+      <DependentUpon>Lab03-Bai01-UPDClient.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab03-Bai04-ChatClient.resx">
       <DependentUpon>Lab03-Bai04-ChatClient.cs</DependentUpon>
     </EmbeddedResource>

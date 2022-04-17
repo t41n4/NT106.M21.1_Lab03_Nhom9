@@ -56,16 +56,14 @@ namespace NT106.M21._1_Lab03_Nhom9
                 {
                     Socket clientSocket = listenerSocket.Accept();
                     ListClient.Add(clientSocket);
-                    listLog.Items.Add(new ListViewItem("New client connected from: " + clientSocket.RemoteEndPoint.ToString()));
 
-                    SendData("Message From Server: Hi, Welcome to My Room Chat!", clientSocket);
+                    SendData("Đã kết nối thành công!!", clientSocket);
                     Thread receiver = new Thread(() => ReceiveDataThread(clientSocket));
                     receiver.Start();
                 }
             }
             catch (Exception )
             {
-                MessageBox.Show("Server Said: Bye!");
                 CloseMe();
             }
             
@@ -80,7 +78,7 @@ namespace NT106.M21._1_Lab03_Nhom9
                 text = ipepServer.ToString() + ": " + Encoding.UTF8.GetString(recv, 0, bytesReceived);
                 listLog.Items.Add(new ListViewItem(text));
                 broadcast(Encoding.UTF8.GetString(recv, 0, bytesReceived));
-                if (text.Contains("quit"))
+                if (text.Contains("Quit"))
                 {
                     CloseClientConnection(clientSocket);
                 }
@@ -155,5 +153,9 @@ namespace NT106.M21._1_Lab03_Nhom9
             btnB4Listen.Enabled = true;
         }
 
+        private void listLog_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
