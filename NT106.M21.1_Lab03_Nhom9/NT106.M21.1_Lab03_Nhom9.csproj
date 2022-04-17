@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Lab03-Bai04-ChatClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab03-Bai04-ChatClient.Designer.cs">
+      <DependentUpon>Lab03-Bai04-ChatClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lab03-Bai04-ChatServer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lab03-Bai04-ChatServer.Designer.cs">
+      <DependentUpon>Lab03-Bai04-ChatServer.cs</DependentUpon>
+    </Compile>
     <Compile Include="Lab03-Bai04.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -90,6 +102,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Lab03-Bai04-ChatClient.resx">
+      <DependentUpon>Lab03-Bai04-ChatClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lab03-Bai04-ChatServer.resx">
+      <DependentUpon>Lab03-Bai04-ChatServer.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Lab03_Bai3_TcpClient.resx">
       <DependentUpon>Lab03_Bai3_TcpClient.cs</DependentUpon>
     </EmbeddedResource>

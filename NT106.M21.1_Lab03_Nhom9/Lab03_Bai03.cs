@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NT106.M21._1_Lab03_Nhom9
 {
-    public partial class Lab03_Bai3 : Form
+    public partial class FormBai3 : Form
     {
-        public Lab03_Bai3()
+        public FormBai3()
         {
             InitializeComponent();
         }

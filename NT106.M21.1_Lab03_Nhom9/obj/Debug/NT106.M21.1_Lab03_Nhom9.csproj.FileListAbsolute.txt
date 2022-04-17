@@ -29,3 +29,21 @@ C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug
 C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.exe
 C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.pdb
 C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai3.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.exe.config
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.exe
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.pdb
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai04_ChatServer.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai3_TcpClient.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai3_TcpServer.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Menu.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai1.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai2.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai4.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Properties.Resources.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.GenerateResource.cache
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.exe
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.pdb
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai3.resources
+C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai04_ChatClient.resources

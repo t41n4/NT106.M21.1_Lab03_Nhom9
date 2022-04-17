@@ -1,7 +1,7 @@
 ﻿
 namespace NT106.M21._1_Lab03_Nhom9
 {
-    partial class Lab03_Bai3
+    partial class FormBai3
     {
         /// <summary>
         /// Required designer variable.
@@ -35,9 +35,10 @@ namespace NT106.M21._1_Lab03_Nhom9
             // 
             // OpenTCPServer
             // 
-            this.OpenTCPServer.Location = new System.Drawing.Point(12, 27);
+            this.OpenTCPServer.Location = new System.Drawing.Point(16, 33);
+            this.OpenTCPServer.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.OpenTCPServer.Name = "OpenTCPServer";
-            this.OpenTCPServer.Size = new System.Drawing.Size(186, 23);
+            this.OpenTCPServer.Size = new System.Drawing.Size(248, 28);
             this.OpenTCPServer.TabIndex = 0;
             this.OpenTCPServer.Text = "Open TCP Server";
             this.OpenTCPServer.UseVisualStyleBackColor = true;
@@ -45,23 +46,24 @@ namespace NT106.M21._1_Lab03_Nhom9
             // 
             // OpenClient
             // 
-            this.OpenClient.Location = new System.Drawing.Point(12, 69);
+            this.OpenClient.Location = new System.Drawing.Point(16, 85);
+            this.OpenClient.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.OpenClient.Name = "OpenClient";
-            this.OpenClient.Size = new System.Drawing.Size(186, 23);
+            this.OpenClient.Size = new System.Drawing.Size(248, 28);
             this.OpenClient.TabIndex = 1;
             this.OpenClient.Text = "Open new TCP Client";
             this.OpenClient.UseVisualStyleBackColor = true;
             this.OpenClient.Click += new System.EventHandler(this.OpenClient_Click);
             // 
-            // Lab03_Bai3
+            // FormBai3
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(226, 116);
+            this.ClientSize = new System.Drawing.Size(301, 143);
             this.Controls.Add(this.OpenClient);
             this.Controls.Add(this.OpenTCPServer);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Lab03_Bai3";
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.Name = "FormBai3";
             this.Text = "Lab03-Bai3";
             this.ResumeLayout(false);
 

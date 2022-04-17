@@ -23,19 +23,19 @@ namespace NT106.M21._1_Lab03_Nhom9
         }
         private void btnBai02_Click(object sender, EventArgs e)
         {
-            FormBai1 Bai2 = new FormBai1();
+            FormBai2 Bai2 = new FormBai2();
             Bai2.ShowDialog();
         }
 
         private void btnBai03_Click(object sender, EventArgs e)
         {
-            Lab03_Bai3 form = new Lab03_Bai3();
+            FormBai3 form = new FormBai3();
             form.Show();
         }
 
         private void btnBai04_Click(object sender, EventArgs e)
         {
-            FormBai1 Bai4 = new FormBai1();
+            FormBai4 Bai4 = new FormBai4();
             Bai4.ShowDialog();
         }
     }
