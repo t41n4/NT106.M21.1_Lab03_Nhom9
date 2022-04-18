@@ -30,7 +30,7 @@ namespace NT106.M21._1_Lab03_Nhom9
         private void InitializeComponent()
         {
             this.btn_Listen = new System.Windows.Forms.Button();
-            this.lv_ = new System.Windows.Forms.ListView();
+            this.listview = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
             // btn_Listen
@@ -44,21 +44,22 @@ namespace NT106.M21._1_Lab03_Nhom9
             this.btn_Listen.UseVisualStyleBackColor = true;
             this.btn_Listen.Click += new System.EventHandler(this.btn_Listen_Click);
             // 
-            // lv_
+            // listview
             // 
-            this.lv_.HideSelection = false;
-            this.lv_.Location = new System.Drawing.Point(12, 47);
-            this.lv_.Name = "lv_";
-            this.lv_.Size = new System.Drawing.Size(509, 258);
-            this.lv_.TabIndex = 1;
-            this.lv_.UseCompatibleStateImageBehavior = false;
+            this.listview.HideSelection = false;
+            this.listview.Location = new System.Drawing.Point(3, 47);
+            this.listview.Name = "listview";
+            this.listview.Size = new System.Drawing.Size(518, 280);
+            this.listview.TabIndex = 1;
+            this.listview.UseCompatibleStateImageBehavior = false;
+            this.listview.View = System.Windows.Forms.View.List;
             // 
             // FormBai2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(527, 339);
-            this.Controls.Add(this.lv_);
+            this.Controls.Add(this.listview);
             this.Controls.Add(this.btn_Listen);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FormBai2";
@@ -70,6 +71,6 @@ namespace NT106.M21._1_Lab03_Nhom9
         #endregion
 
         private System.Windows.Forms.Button btn_Listen;
-        private System.Windows.Forms.ListView lv_;
+        private System.Windows.Forms.ListView listview;
     }
 }
