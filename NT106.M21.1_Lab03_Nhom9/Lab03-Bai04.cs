@@ -1,13 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Threading;
+using System.Windows.Forms;
 
 namespace NT106.M21._1_Lab03_Nhom9
 {
@@ -20,7 +13,6 @@ namespace NT106.M21._1_Lab03_Nhom9
 
         private void FormBai4_Load(object sender, EventArgs e)
         {
-
         }
 
         private void btnB4ChatServer_Click(object sender, EventArgs e)
@@ -31,6 +23,7 @@ namespace NT106.M21._1_Lab03_Nhom9
             Thread isServerAliv = new Thread(() => isServerAlive(ServerThrd));
             isServerAliv.Start();
         }
+
         private void isServerAlive(Thread ServerThrd)
         {
             while (true)
@@ -38,7 +31,6 @@ namespace NT106.M21._1_Lab03_Nhom9
                 if (ServerThrd.IsAlive)
                 {
                     btnB4ChatServer.Enabled = false;
-                    
                 }
                 else
                 {
@@ -46,8 +38,8 @@ namespace NT106.M21._1_Lab03_Nhom9
                     break;
                 }
             }
-            
         }
+
         private void ServerThread()
         {
             Lab03_Bai04_ChatServer ChatServer = new Lab03_Bai04_ChatServer();

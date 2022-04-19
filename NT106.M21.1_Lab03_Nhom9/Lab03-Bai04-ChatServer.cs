@@ -13,7 +13,7 @@ namespace NT106.M21._1_Lab03_Nhom9
         private byte[] recv;
         private int bytesReceived = 0;
         private List<Socket> ListClient;
-        private Socket listenerSocket ;
+        private Socket listenerSocket;
         private IPEndPoint ipepServer;
 
         public Lab03_Bai04_ChatServer()
@@ -31,21 +31,18 @@ namespace NT106.M21._1_Lab03_Nhom9
 
         private void ListenThread()
         {
-            
-                bytesReceived = 0;
-                recv = new byte[1024];
-                listenerSocket = new Socket(
-                     AddressFamily.InterNetwork,
-                     SocketType.Stream,
-                     ProtocolType.Tcp
-                     );
-                ipepServer = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 8080);
-                listenerSocket.Bind(ipepServer);
-                listLog.Items.Add(new ListViewItem("Listenning on: " + ipepServer.ToString()));           
-                listenerSocket.Listen(-1);
-                AcceptClient();
-            
-           
+            bytesReceived = 0;
+            recv = new byte[1024];
+            listenerSocket = new Socket(
+                 AddressFamily.InterNetwork,
+                 SocketType.Stream,
+                 ProtocolType.Tcp
+                 );
+            ipepServer = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 8080);
+            listenerSocket.Bind(ipepServer);
+            listLog.Items.Add(new ListViewItem("Listenning on: " + ipepServer.ToString()));
+            listenerSocket.Listen(-1);
+            AcceptClient();
         }
 
         private void AcceptClient()
@@ -58,7 +55,7 @@ namespace NT106.M21._1_Lab03_Nhom9
                     Socket clientSocket = listenerSocket.Accept();
                     ListClient.Add(clientSocket);
                     SendData("Message From Server: Hi, Welcome to My Room Chat!", clientSocket);
-                    listLog.Items.Add(new ListViewItem("New Client Connected: "+ clientSocket.RemoteEndPoint.ToString()));
+                    listLog.Items.Add(new ListViewItem("New Client Connected: " + clientSocket.RemoteEndPoint.ToString()));
                     Thread receiver = new Thread(() => ReceiveDataThread(clientSocket));
                     receiver.Start();
                 }
@@ -73,15 +70,19 @@ namespace NT106.M21._1_Lab03_Nhom9
         {
             try
             {
-                while (true && clientSocket.Connected&&listenerSocket.Connected)
+                while (true && clientSocket.Connected && listenerSocket.LocalEndPoint != null)
                 {
-                    string text = "";
+                    string msg = "";
                     bytesReceived = clientSocket.Receive(recv);
-                    text = clientSocket.RemoteEndPoint.ToString() + ": " + Encoding.UTF8.GetString(recv, 0, bytesReceived);
-                    listLog.Items.Add(new ListViewItem(text));
-                    broadcast(Encoding.UTF8.GetString(recv, 0, bytesReceived));
-                    if (text.Contains("quit"))
+                    msg =  Encoding.UTF8.GetString(recv, 0, bytesReceived);
+                    string listViewString = clientSocket.RemoteEndPoint.ToString() + ": " + msg;
+                  
+                    
+                    listLog.Items.Add(new ListViewItem(listViewString));
+                    broadcast(msg);
+                    if (msg.Contains("quit"))
                     {
+                        Thread.Sleep(1000);                
                         CloseClientConnection(clientSocket);
                     }
                 }
@@ -91,7 +92,6 @@ namespace NT106.M21._1_Lab03_Nhom9
                 MessageBox.Show("Đóng kết nối!");
                 this.Close();
             }
-        
         }
 
         private void CloseClientConnection(Socket clientSocket)
@@ -122,34 +122,33 @@ namespace NT106.M21._1_Lab03_Nhom9
 
         private void CloseMe()
         {
-            
-                StopListening();
+            StopListening();
 
-                foreach (var item in ListClient.ToArray())
-                {
-                    CloseClientConnection(item);
-                }
+            foreach (var item in ListClient.ToArray())
+            {
+                CloseClientConnection(item);
+            }
 
-                ListClient.Clear();
+            ListClient.Clear();
 
-                recv = null;
-                bytesReceived = 0;
-                ipepServer = null;
-
-            
+            recv = null;
+            bytesReceived = 0;
+            ipepServer = null;
         }
+
         private void StopListening()
         {
-        if (listenerSocket != null)
-        {     
-            broadcast("server quit");
-
-            if (listLog.SelectedItems.Count == 0 && listLog.Items.Count != 0)
+            if (listenerSocket != null)
             {
-                listLog.Items[0].Selected = true;
-                listLog.Items.Clear();
-            }
-                    listenerSocket.Close();
+                broadcast("server quit");
+
+                if (listLog.SelectedItems.Count == 0 && listLog.Items.Count != 0)
+                {
+                    
+                    listLog.Items.Clear();
+                }
+                
+                listenerSocket.Close();
             }
         }
 

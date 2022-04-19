@@ -1,22 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Windows.Forms;
 using System.Net;
 using System.Net.Sockets;
+using System.Text;
 using System.Threading;
-using System.Threading.Tasks;
-using System.Security.Permissions;
-using System.Diagnostics.CodeAnalysis;
+using System.Windows.Forms;
 
 namespace NT106.M21._1_Lab03_Nhom9
 {
     public partial class Lab03B1UDPServer : Form
     {
-        delegate void InfoMessageDel(String info);
+        private delegate void InfoMessageDel(String info);
+
         public Lab03B1UDPServer()
         {
             InitializeComponent();
@@ -24,8 +18,8 @@ namespace NT106.M21._1_Lab03_Nhom9
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
         {
-
         }
+
         public void serverThread()
         {
             UdpClient udpClient = new UdpClient(int.Parse(ServerPortB1.Text));
@@ -55,7 +49,6 @@ namespace NT106.M21._1_Lab03_Nhom9
         {
             Thread thdUDPServer = new Thread(new ThreadStart(serverThread));
             thdUDPServer.Start();
-
         }
 
         private void btnExit_Click(object sender, EventArgs e)

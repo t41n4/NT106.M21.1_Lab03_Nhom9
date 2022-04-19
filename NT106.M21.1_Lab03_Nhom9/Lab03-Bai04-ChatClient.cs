@@ -59,11 +59,11 @@ namespace NT106.M21._1_Lab03_Nhom9
                     string text = "";
                     int bytesReceived = tcpClient.Client.Receive(recv);
                     text = Encoding.UTF8.GetString(recv, 0, bytesReceived);
-                    
-                    if(text == "server quit")
+
+                    if (text == "server quit")
                     {
                         byte[] data = System.Text.Encoding.UTF8.GetBytes(tbClientName.Text + ": quit");
-                        SendData("quit because server stop listenning");                       
+                        SendData("quit because server stop listenning");
                         tcpClient.Close();
                         this.Dispose();
                         this.Close();
@@ -91,8 +91,8 @@ namespace NT106.M21._1_Lab03_Nhom9
             ns = tcpClient.GetStream();
             Byte[] data = System.Text.Encoding.UTF8.GetBytes(tbClientName.Text + ": " + msg);
             ns.Write(data, 0, data.Length);
-    
         }
+
         private bool CloseClient()
         {
             try
@@ -120,7 +120,6 @@ namespace NT106.M21._1_Lab03_Nhom9
         private void Lab03_Bai04_ChatClient_Load(object sender, System.EventArgs e)
         {
             if (!NewClient()) this.Close();
-            
         }
 
         private void Lab03_Bai04_ChatClient_FormClosing(object sender, FormClosingEventArgs e)

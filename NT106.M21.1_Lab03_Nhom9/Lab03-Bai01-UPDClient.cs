@@ -1,8 +1,6 @@
 ﻿using System;
-using System.Net;
 using System.Net.Sockets;
 using System.Text;
-using System.Threading;
 using System.Windows.Forms;
 
 namespace NT106.M21._1_Lab03_Nhom9
@@ -16,7 +14,6 @@ namespace NT106.M21._1_Lab03_Nhom9
 
         private void HostIP_Click(object sender, EventArgs e)
         {
-
         }
 
         private void btnSend_Click(object sender, EventArgs e)
@@ -30,17 +27,14 @@ namespace NT106.M21._1_Lab03_Nhom9
 
         private void textHostIP_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void textPort_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void textMessage_TextChanged(object sender, EventArgs e)
         {
-
         }
 
         private void btnExit_Click(object sender, EventArgs e)
