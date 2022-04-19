@@ -63,7 +63,6 @@ namespace NT106.M21._1_Lab03_Nhom9
             this.listLog.TabIndex = 3;
             this.listLog.UseCompatibleStateImageBehavior = false;
             this.listLog.View = System.Windows.Forms.View.List;
-            this.listLog.SelectedIndexChanged += new System.EventHandler(this.listLog_SelectedIndexChanged);
             // 
             // btnStop
             // 

@@ -21,10 +21,6 @@ namespace NT106.M21._1_Lab03_Nhom9
 
         private void btnSend_Click(object sender, System.EventArgs e)
         {
-            if (!LeaveYourName())
-            {
-                return;
-            }
             SendData(tbMessage.Text);
         }
 
@@ -37,6 +33,7 @@ namespace NT106.M21._1_Lab03_Nhom9
                 //2 Kết nối đến Server với 1 địa chỉ Ip và Port xác định
                 ipEndPoint = new IPEndPoint(IPAddress.Parse("127.0.0.1"), 8080);
                 tcpClient.Connect(ipEndPoint);
+                ns = tcpClient.GetStream();
                 Thread Receiver = new Thread(ReceiveFromSever);
                 Receiver.Start();
                 return true;
@@ -62,13 +59,23 @@ namespace NT106.M21._1_Lab03_Nhom9
                     string text = "";
                     int bytesReceived = tcpClient.Client.Receive(recv);
                     text = Encoding.UTF8.GetString(recv, 0, bytesReceived);
+                    
+                    if(text == "server quit")
+                    {
+                        byte[] data = System.Text.Encoding.UTF8.GetBytes(tbClientName.Text + ": quit");
+                        SendData("quit because server stop listenning");                       
+                        tcpClient.Close();
+                        this.Dispose();
+                        this.Close();
+                        break;
+                    }
                     UpdateUI = new Thread(() => UpdateUIThread(text));
                     UpdateUI.Start();
                 }
             }
             catch (Exception)
             {
-                MessageBox.Show("Client Đóng kết nối!");
+                MessageBox.Show("Đóng kết nối!");
                 this.Close();
             }
         }
@@ -84,16 +91,7 @@ namespace NT106.M21._1_Lab03_Nhom9
             ns = tcpClient.GetStream();
             Byte[] data = System.Text.Encoding.UTF8.GetBytes(tbClientName.Text + ": " + msg);
             ns.Write(data, 0, data.Length);
-        }
-        private bool LeaveYourName()
-        {
-            if (String.IsNullOrEmpty(tbClientName.Text))
-            {
-                MessageBox.Show("Leave Your Name Before do Anything!");
-                return false;
-                
-            }
-            return true;
+    
         }
         private bool CloseClient()
         {
@@ -101,7 +99,6 @@ namespace NT106.M21._1_Lab03_Nhom9
             {
                 if (tcpClient != null)
                 {
-                    if (!LeaveYourName()) { return false; }
                     byte[] data = System.Text.Encoding.UTF8.GetBytes(tbClientName.Text + ": quit");
                     ns = tcpClient.GetStream();
                     ns.Write(data, 0, data.Length);
@@ -110,7 +107,6 @@ namespace NT106.M21._1_Lab03_Nhom9
                     return true;
                 }
                 return true;
-      
             }
             catch (Exception)
             {
