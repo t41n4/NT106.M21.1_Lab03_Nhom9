@@ -25,8 +25,17 @@ namespace NT106.M21._1_Lab03_Nhom9
         {
             CheckForIllegalCrossThreadCalls = false;
             Thread StartListenThread = new Thread(ListenThread);
-            StartListenThread.Start();
+            if (!StartListenThread.IsAlive)
+            {
+                StartListenThread.Start();
+            }
+            
             btnB4Listen.Text = "Listenning...";
+            if (listLog.Items.Count != 0)
+            {
+                listLog.Items.Clear();
+                listLog.Clear();
+            }
         }
 
         private void ListenThread()
@@ -82,7 +91,7 @@ namespace NT106.M21._1_Lab03_Nhom9
                     broadcast(msg);
                     if (msg.Contains("quit"))
                     {
-                        Thread.Sleep(1000);                
+                                      
                         CloseClientConnection(clientSocket);
                     }
                 }

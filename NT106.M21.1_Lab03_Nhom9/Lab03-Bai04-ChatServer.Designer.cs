@@ -59,7 +59,6 @@ namespace NT106.M21._1_Lab03_Nhom9
             this.listLog.Enabled = false;
             this.listLog.HideSelection = false;
             this.listLog.Location = new System.Drawing.Point(12, 75);
-            this.listLog.MultiSelect = false;
             this.listLog.Name = "listLog";
             this.listLog.Size = new System.Drawing.Size(429, 321);
             this.listLog.TabIndex = 3;
