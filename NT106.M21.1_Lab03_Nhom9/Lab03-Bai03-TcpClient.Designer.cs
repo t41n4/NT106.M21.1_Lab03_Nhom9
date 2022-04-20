@@ -28,19 +28,35 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.btnSend = new System.Windows.Forms.Button();
             this.SuspendLayout();
+            // 
+            // btnSend
+            // 
+            this.btnSend.Location = new System.Drawing.Point(47, 44);
+            this.btnSend.Name = "btnSend";
+            this.btnSend.Size = new System.Drawing.Size(119, 23);
+            this.btnSend.TabIndex = 0;
+            this.btnSend.Text = "Send message";
+            this.btnSend.UseVisualStyleBackColor = true;
+            this.btnSend.Click += new System.EventHandler(this.btnSend_Click);
             // 
             // Lab03_Bai3_TcpClient
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 344);
+            this.ClientSize = new System.Drawing.Size(214, 102);
+            this.Controls.Add(this.btnSend);
             this.Name = "Lab03_Bai3_TcpClient";
             this.Text = "Lab03_Bai3_TcpClient";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Lab03_Bai3_TcpClient_FormClosed);
+            this.Load += new System.EventHandler(this.Lab03_Bai3_TcpClient_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnSend;
     }
 }
