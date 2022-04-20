@@ -29,7 +29,7 @@ namespace NT106.M21._1_Lab03_Nhom9
             {
                 StartListenThread.Start();
             }
-            
+
             btnB4Listen.Text = "Listenning...";
             if (listLog.Items.Count != 0)
             {
@@ -83,15 +83,13 @@ namespace NT106.M21._1_Lab03_Nhom9
                 {
                     string msg = "";
                     bytesReceived = clientSocket.Receive(recv);
-                    msg =  Encoding.UTF8.GetString(recv, 0, bytesReceived);
+                    msg = Encoding.UTF8.GetString(recv, 0, bytesReceived);
                     string listViewString = clientSocket.RemoteEndPoint.ToString() + ": " + msg;
-                  
-                    
+
                     listLog.Items.Add(new ListViewItem(listViewString));
                     broadcast(msg);
                     if (msg.Contains("quit"))
                     {
-                                      
                         CloseClientConnection(clientSocket);
                     }
                 }
@@ -153,10 +151,9 @@ namespace NT106.M21._1_Lab03_Nhom9
 
                 if (listLog.SelectedItems.Count == 0 && listLog.Items.Count != 0)
                 {
-                    
                     listLog.Items.Clear();
                 }
-                
+
                 listenerSocket.Close();
             }
         }

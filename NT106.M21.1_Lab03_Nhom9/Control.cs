@@ -3,9 +3,9 @@ using System.Windows.Forms;
 
 namespace NT106.M21._1_Lab03_Nhom9
 {
-    public partial class Menu : Form
+    public partial class Control : Form
     {
-        public Menu()
+        public Control()
         {
             InitializeComponent();
         }

@@ -22,16 +22,25 @@ namespace NT106.M21._1_Lab03_Nhom9
 
         public void serverThread()
         {
-            UdpClient udpClient = new UdpClient(int.Parse(ServerPortB1.Text));
-            while (true)
+            try
             {
-                IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
-                Byte[] receiveBytes = udpClient.Receive(ref RemoteIpEndPoint);
-                string returnData = Encoding.ASCII.GetString(receiveBytes);
-                string mess = RemoteIpEndPoint.Address.ToString() + ": " +
-                    returnData.ToString();
-                InfoMessage(mess);
+                UdpClient udpClient = new UdpClient(int.Parse(ServerPortB1.Text));
+                while (true)
+                {
+                    IPEndPoint RemoteIpEndPoint = new IPEndPoint(IPAddress.Any, 0);
+                    Byte[] receiveBytes = udpClient.Receive(ref RemoteIpEndPoint);
+                    string returnData = Encoding.ASCII.GetString(receiveBytes);
+                    string mess = RemoteIpEndPoint.Address.ToString() + ": " +
+                        returnData.ToString();
+                    InfoMessage(mess);
+                }
             }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message);
+            }
+          
         }
 
         public void InfoMessage(String info)
