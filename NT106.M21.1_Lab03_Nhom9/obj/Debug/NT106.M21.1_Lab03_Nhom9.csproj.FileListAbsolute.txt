@@ -28,7 +28,6 @@ C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug
 C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.csproj.CoreCompileInputs.cache
 C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.exe
 C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21.1_Lab03_Nhom9.pdb
-C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai3.resources
 C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.exe.config
 C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.exe
 C:\Users\admin\Desktop\Lap trinh Mang can bang\Lab03\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.pdb
@@ -91,3 +90,8 @@ D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_N
 D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.exe.config
 D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.exe
 D:\Tài liệu học tập\hk4\NT106\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\bin\Debug\NT106.M21.1_Lab03_Nhom9.pdb
+C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03B1UDPServer.resources
+C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab3B1UDPClient.resources
+C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai04_ChatClient.resources
+C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.Lab03_Bai04_ChatServer.resources
+C:\Users\luong\Desktop\NT106.M21.1_Lab03_Nhom9\NT106.M21.1_Lab03_Nhom9\obj\Debug\NT106.M21._1_Lab03_Nhom9.FormBai3.resources
